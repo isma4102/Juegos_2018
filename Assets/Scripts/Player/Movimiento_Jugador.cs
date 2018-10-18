@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Movimiento_Jugador : MonoBehaviour {
 
+    public Transform arma;
     public float velocidad = 6f;
     Vector3 movimiento;
     Animator animaciones;
@@ -25,7 +26,12 @@ public class Movimiento_Jugador : MonoBehaviour {
             Movimiento(h,v);
             RotacionJugador();
             Animaciones(h,v);
+            Armas();
         }
+    void Armas()
+    {
+        arma.transform.SetParent(this.transform);
+    }
 
     void Movimiento(float h, float v)
     {
