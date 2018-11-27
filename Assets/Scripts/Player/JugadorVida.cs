@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class JugadorVida : MonoBehaviour {
 
+    public GameObject Jugador;
+    public ParticleSystem particulas_Muerte;
     public int establecerVida = 100;
     public int obtenerVida;
     public Slider barraVida;
@@ -24,7 +26,7 @@ public class JugadorVida : MonoBehaviour {
         animaciones = GetComponent<Animator>();
         sonidoJugador = GetComponent<AudioSource>();
         jugadorMovimiento = GetComponent<Movimiento_Jugador>();
-
+        
 
         obtenerVida = establecerVida;
 
@@ -67,6 +69,8 @@ public class JugadorVida : MonoBehaviour {
         sonidoJugador.clip = sonidoDamage;
         sonidoJugador.Play();
         jugadorMovimiento.enabled = false;
+        gameObject.SetActive(true);
+        particulas_Muerte.Play();
     }
 
     public void RestartLevel()
