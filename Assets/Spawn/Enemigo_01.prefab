@@ -519,8 +519,8 @@ GameObject:
   - component: {fileID: 82176055834853742}
   - component: {fileID: 135339335522978192}
   - component: {fileID: 136264468974619240}
-  - component: {fileID: 114585122611233866}
   - component: {fileID: 195150942186909160}
+  - component: {fileID: 114585122611233866}
   - component: {fileID: 114371599110564570}
   - component: {fileID: 114498427035570546}
   m_Layer: 9
@@ -2113,7 +2113,7 @@ Animator:
   m_GameObject: {fileID: 1460154326660524}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: b6b40c43a84ed3d49bf39d7ed50b44e3, type: 3}
-  m_Controller: {fileID: 9100000, guid: 4112fb3a8d44f5546a547686d32d0d05, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9fc781a276eff5945b50226ceec9cd48, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -124,6 +124,7 @@
      <Compile Include="Assets\Scripts\Enemy\EnemigoVida.cs" />
      <Compile Include="Assets\Scripts\Managers\GameOver.cs" />
      <Compile Include="Assets\Scripts\Managers\SistemadeEnemigo.cs" />
+     <Compile Include="Assets\Scripts\Managers\SistemadeJefe.cs" />
      <Compile Include="Assets\Scripts\Managers\SistemadePuntaje.cs" />
      <Compile Include="Assets\Scripts\Player\Camara_J.cs" />
      <Compile Include="Assets\Scripts\Player\Jugador_Efecto_Muerte.cs" />
@@ -172,6 +173,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
+     <None Include="Assets\RainEntertainment\FantasyMonster\DarkDragon\readMe.txt" />
      <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />

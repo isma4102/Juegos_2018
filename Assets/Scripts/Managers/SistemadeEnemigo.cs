@@ -8,7 +8,7 @@ public class SistemadeEnemigo : MonoBehaviour
     public GameObject enemigo;
     public float tiempoSpawn = 3f;
     public Transform[] posicionSpawn;
-
+    public int indice = 0;
 
     private void Start()
     {
@@ -21,8 +21,12 @@ public class SistemadeEnemigo : MonoBehaviour
         {
             return;
         }
+        if(indice == 21){
+            return;
+        }
 
         int spawnIndex = Random.Range(0, posicionSpawn.Length);
+        indice = indice + 1;
         Instantiate(enemigo, posicionSpawn[spawnIndex].position, posicionSpawn[spawnIndex].rotation);
 
     }

@@ -12090,6 +12090,7 @@ GameObject:
   - component: {fileID: 1458323922}
   - component: {fileID: 1458323921}
   - component: {fileID: 1458323923}
+  - component: {fileID: 1458323924}
   m_Layer: 0
   m_Name: SistemadeEnemigo
   m_TagString: Untagged
@@ -12113,6 +12114,7 @@ MonoBehaviour:
   tiempoSpawn: 3
   posicionSpawn:
   - {fileID: 1696093854}
+  indice: 0
 --- !u!4 &1458323922
 Transform:
   m_ObjectHideFlags: 0
@@ -12144,6 +12146,27 @@ MonoBehaviour:
   tiempoSpawn: 5
   posicionSpawn:
   - {fileID: 822960005}
+  indice: 0
+--- !u!114 &1458323924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1458323920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41dc3bc599d2ee9409297b0a2ad4a6c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemigo2: {fileID: 1458323920}
+  jugadorVida: {fileID: 1753110449}
+  Jefe_1: {fileID: 1927331868597880, guid: 997300414ea947a4a97cce9d468ef337, type: 2}
+  Jefe_2: {fileID: 0}
+  Jefe_3: {fileID: 0}
+  Jefe_4: {fileID: 0}
+  tiempoSpawn: 3
+  posicionSpawn:
+  - {fileID: 1696093854}
 --- !u!1 &1474683767
 GameObject:
   m_ObjectHideFlags: 0
