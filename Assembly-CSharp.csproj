@@ -131,11 +131,14 @@
      <Compile Include="Assets\Scripts\Player\JugadorDisparo.cs" />
      <Compile Include="Assets\Scripts\Player\JugadorVida.cs" />
      <Compile Include="Assets\Scripts\Player\Movimiento_Jugador.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\CheckMusicVolume.cs" />
      <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\CheckSFXVolume.cs" />
      <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\MainMenuNew.cs" />
      <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\OptionsMenuNew.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+=======
+>>>>>>> d2c7d9bbd42593ea0948790182a9937b30fef028
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
@@ -150,7 +153,6 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
-     <None Include="Assets\SurvivalShooter_Third-PartyNotice.txt" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
@@ -186,6 +188,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
  <Reference Include="UnityEditor.StandardEvents">
+<<<<<<< HEAD
  <HintPath>C:/Users/Martín/Juegos_2018/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
@@ -196,6 +199,18 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Martín/Juegos_2018/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+=======
+ <HintPath>C:/Users/MILTON/Desktop/Juegos_2018/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/MILTON/Desktop/Juegos_2018/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/MILTON/Desktop/Juegos_2018/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/MILTON/Desktop/Juegos_2018/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+>>>>>>> d2c7d9bbd42593ea0948790182a9937b30fef028
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
