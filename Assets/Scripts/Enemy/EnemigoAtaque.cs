@@ -58,7 +58,8 @@ public class EnemigoAtaque : MonoBehaviour
     void Atacar()
     {
         tiempo = 0f;
-
+          animaciones.SetTrigger("EnemigoAtaque");
+           animaciones.SetTrigger("EnemigoMover");
         if(jugadorVida.obtenerVida > 0)
         {
             jugadorVida.RecibirDamaged(ataqueDamage);

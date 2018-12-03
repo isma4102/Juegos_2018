@@ -10,7 +10,7 @@ public class EnemigoVida : MonoBehaviour {
     public float vHundimiento = 2.5f;
     public int valorPuntaje = 10;
     public AudioClip sonidoMuerte;
-
+ public int empieza = 0;
     Animator anim;
     AudioSource audioEnemigo;
     ParticleSystem golpeParticulas;
